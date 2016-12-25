@@ -2,17 +2,18 @@
 
 ## Use
 
-| Name          | File Path      | Method | Parameters              | Return                   | Description         |
-| ------------- | -------------- | ------ | ----------------------- | ------------------------ | ------------------- |
-| Register      | ./api/user.php | POST   | type, username,password | success                  | type="register"     |
-| Login         | ./api/user.php | POST   | type, username,password | success, token, id       | type="login"        |
-| Add Friend    | ./api/user.php | POST   | type, id, token         | success                  |                     |
-| Get User      | ./api/user.php | POST   | type, id, token         | success, username, score | type="get_user"     |
-| Delete Friend | ./api/user.php | POST   | type, id, token         | success                  |                     |
-| Change Score  | ./api/user.php | POST   | type, score, token      | success                  |                     |
-| Get ID        | ./api/user.php | POST   | type, username, token   | success, id              | type="get_id"       |
-| Delete Token  | ./api/user.php | POST   | type, token             | success                  | type="delete_token" |
-|               |                |        |                         |                          |                     |
+| Name          | File Path      | Method | Parameters              | Return                   | Description          |
+| ------------- | -------------- | ------ | ----------------------- | ------------------------ | -------------------- |
+| Register      | ./api/user.php | POST   | type, username,password | success                  | type="register"      |
+| Login         | ./api/user.php | POST   | type, username,password | success, token, id       | type="login"         |
+| Add Friend    | ./api/user.php | POST   | type, id, token         | success                  | type="add_friend"    |
+| Get User      | ./api/user.php | POST   | type, id, token         | success, username, score | type="get_user"      |
+| Delete Friend | ./api/user.php | POST   | type, id, token         | success                  | type="delete_friend" |
+| Change Score  | ./api/user.php | POST   | type, score, token      | success                  | type="change_score"  |
+| Get ID        | ./api/user.php | POST   | type, username, token   | success, id              | type="get_id"        |
+| Delete Token  | ./api/user.php | POST   | type, token             | success                  | type="delete_token"  |
+| Get Friends   | ./api/user.php | POST   | type, token             | success, friends         | type="get_friends"   |
+|               |                |        |                         |                          |                      |
 
 ## Configuration
 
